@@ -1,0 +1,24 @@
+import java.util.*;
+
+public class StopLightA{
+    
+    public void play(){
+    
+    Scanner in = new Scanner(System.in);
+    System.out.println("Masukkan angka yang anda inginkan :");
+    int pilihan = in.nextInt();
+    
+    if (pilihan == 1){
+        System.out.println("Next Traffic Light is green");
+    }
+    else if (pilihan == 2){
+        System.out.println("Next Traffic Light is yellow");
+    }
+    else if (pilihan == 3){
+         System.out.println("Next Traffic Light is red");
+    }
+    else {
+    System.out.println("Invalid color");
+    }
+    }
+}
